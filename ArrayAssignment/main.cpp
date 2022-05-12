@@ -1,9 +1,9 @@
 /*
-*   INGE
+*   max-z00
 *
 *   C++
 *
-*    9 - Programming Assignment - Arrays, Find the most occurring number in the set.
+*   Programming Assignment - Arrays, Find the most occurring number in the set.
 */
 #include <iostream>
 
