@@ -15,8 +15,8 @@ int main()
     int countNumber = 0, most = 0;
     int len = *(&numbers + 1) - numbers;
     cout << "original array is: ";
-    for(auto counter : numbers)  // Have no idea what auto does ohh well found it on stack-overflow. just prints out the original array.
-    {                            //-original output was: original array is: numbers[0], original array is: numbers[1], ect...
+    for(auto counter : numbers)  // Lol ik this now!
+    {                            
          cout << counter << " ";
     }
 
