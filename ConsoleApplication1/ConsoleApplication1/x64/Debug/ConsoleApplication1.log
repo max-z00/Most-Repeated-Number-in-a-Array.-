@@ -1,0 +1,17 @@
+﻿  ConsoleApplication1.cpp
+C:\Users\OWEN\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(7,27): error C2664: 'HINTERNET InternetOpenW(LPCWSTR,DWORD,LPCWSTR,LPCWSTR,DWORD)': cannot convert argument 1 from 'const char [11]' to 'LPCWSTR'
+C:\Users\OWEN\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(7,40): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\wininet.h(868,25): message : see declaration of 'InternetOpenW'
+C:\Users\OWEN\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(7,27): message : while trying to match the argument list '(const char [11], int, int, int, int)'
+C:\Users\OWEN\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(10,22): error C2664: 'HINTERNET InternetOpenUrlW(HINTERNET,LPCWSTR,LPCWSTR,DWORD,DWORD,DWORD_PTR)': cannot convert argument 2 from 'const char *' to 'LPCWSTR'
+C:\Users\OWEN\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(10,49): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\wininet.h(947,25): message : see declaration of 'InternetOpenUrlW'
+C:\Users\OWEN\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(10,22): message : while trying to match the argument list '(HINTERNET, const char *, int, int, unsigned int, int)'
+C:\Users\OWEN\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(18,20): error C2664: 'HANDLE CreateFileW(LPCWSTR,DWORD,DWORD,LPSECURITY_ATTRIBUTES,DWORD,DWORD,HANDLE)': cannot convert argument 1 from 'const char *' to 'LPCWSTR'
+C:\Users\OWEN\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(18,31): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\fileapi.h(92,1): message : see declaration of 'CreateFileW'
+C:\Users\OWEN\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(18,20): message : while trying to match the argument list '(const char *, long, int, int, int, int, int)'
+C:\Users\OWEN\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(37,5): error C2664: 'HINSTANCE ShellExecuteW(HWND,LPCWSTR,LPCWSTR,LPCWSTR,LPCWSTR,INT)': cannot convert argument 2 from 'const char [5]' to 'LPCWSTR'
+C:\Users\OWEN\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(37,24): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\shellapi.h(96,22): message : see declaration of 'ShellExecuteW'
+C:\Users\OWEN\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(37,5): message : while trying to match the argument list '(int, const char [5], const char *, int, int, int)'
